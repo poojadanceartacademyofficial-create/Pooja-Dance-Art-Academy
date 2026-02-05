@@ -283,3 +283,13 @@ section h2 {
     font-size: 22px;
   }
 }
+/* =========================
+   HERO IMAGE (COMBINED)
+========================= */
+
+.hero-main {
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
