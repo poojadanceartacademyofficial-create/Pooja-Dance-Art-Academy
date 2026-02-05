@@ -170,6 +170,9 @@ section h2 {
 ========================= */
 
 @media (max-width: 768px) {
+.hero-main {
+  max-width: 95%;
+}
 
   /* HEADER */
   .header {
@@ -250,18 +253,18 @@ section h2 {
   text-align: center;
 }
 
+/* =========================
+   HERO IMAGE SIZE CONTROL
+========================= */
+
 .hero-main {
-  max-width: 90%;
+  max-width: 1100px;     /* desktop limit */
+  width: 90%;
   height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
-.hero-sub {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
-}
 
 .hero-art {
   height: 55px;
@@ -283,13 +286,13 @@ section h2 {
     font-size: 22px;
   }
 }
+
 /* =========================
-   HERO IMAGE (COMBINED)
+   HERO SPACING ADJUSTMENT
 ========================= */
 
-.hero-main {
-  max-width: 90%;
-  height: auto;
-  margin: 0 auto;
-  display: block;
+.hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
 }
