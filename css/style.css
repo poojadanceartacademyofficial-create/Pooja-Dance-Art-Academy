@@ -246,3 +246,40 @@ section h2 {
     font-size: 14px;
   }
 }
+.hero-image {
+  text-align: center;
+}
+
+.hero-main {
+  max-width: 90%;
+  height: auto;
+}
+
+.hero-sub {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.hero-art {
+  height: 55px;
+}
+
+.hero-academy {
+  font-size: 28px;
+  letter-spacing: 2px;
+  color: #e0e0e0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-art {
+    height: 42px;
+  }
+
+  .hero-academy {
+    font-size: 22px;
+  }
+}
