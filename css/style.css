@@ -259,3 +259,6 @@ section h2 {
     font-size: 14px;
   }
 }
+.hero img {
+  background: transparent;
+}
