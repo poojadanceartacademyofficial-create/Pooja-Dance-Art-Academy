@@ -479,3 +479,113 @@ section h2 {
     padding: 70px 25px;
   }
 }
+/* =========================
+   ABOUT MAIN SECTION
+========================= */
+
+.about-main {
+  background: #ffffff;
+  padding: 110px 25px;
+}
+
+.about-wrapper {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-main h2 {
+  font-size: 36px;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+
+.about-subtitle {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: var(--terracotta);
+  margin-bottom: 40px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #444;
+  margin-bottom: 22px;
+}
+
+/* =========================
+   FACULTY SECTION
+========================= */
+
+.faculty-section {
+  margin-top: 50px;
+}
+
+.faculty-section h3 {
+  font-size: 26px;
+  color: var(--navy);
+  margin-bottom: 20px;
+}
+
+.faculty-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.faculty-list li {
+  background: #f7f7f7;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* =========================
+   STATS SECTION
+========================= */
+
+.stats-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+}
+
+.stat-box {
+  background: var(--charcoal);
+  color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.stat-box h4 {
+  font-size: 26px;
+  margin-bottom: 8px;
+  color: var(--terracotta);
+}
+
+.stat-box p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .about-main h2 {
+    font-size: 28px;
+  }
+
+  .faculty-section h3 {
+    font-size: 22px;
+  }
+
+  .stat-box h4 {
+    font-size: 22px;
+  }
+}
