@@ -72,6 +72,21 @@ body {
 .hero img {
   filter: drop-shadow(0 0 35px rgba(255,255,255,0.12));
 }
+.hero-title {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  letter-spacing: 0.5px;
+}
+
+.hero-subtext {
+  color: #dddddd;
+  font-size: 18px;
+  line-height: 1.9;
+  margin-bottom: 40px;
+}
+
 
 .hero p {
   color: var(--white);
@@ -277,4 +292,11 @@ section h2 {
 
 .btn:hover {
   transform: translateY(-2px);
+}
+.hero-title {
+  font-size: 26px;
+}
+
+.hero-subtext {
+  font-size: 16px;
 }
