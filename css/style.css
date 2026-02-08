@@ -233,3 +233,44 @@
   font-weight: 600;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
+/* ================= GALLERY ================= */
+
+.gallery-section {
+  padding: 100px 25px;
+  background: white;
+  text-align: center;
+}
+
+.gallery-section h2 {
+  font-size: 34px;
+  color: var(--navy);
+  margin-bottom: 50px;
+}
+
+.gallery-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 18px;
+}
+
+.gallery-box {
+  height: 200px;
+  background: #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+/* ================= FOOTER ================= */
+
+.site-footer {
+  background: var(--charcoal);
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+  font-size: 14px;
+  line-height: 1.7;
+}
