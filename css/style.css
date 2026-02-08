@@ -3,10 +3,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Segoe UI", Arial, sans-serif;
 }
 
-/* HERO VIDEO SECTION */
+/* COLORS */
+:root {
+  --charcoal: #2b2b2b;
+  --navy: #1f2a44;
+  --terracotta: #c46a4a;
+}
+
+/* ================= HERO VIDEO ================= */
+
 .hero-video-section {
   position: relative;
   width: 100%;
@@ -15,7 +23,6 @@
   background: black;
 }
 
-/* VIDEO */
 .hero-video {
   position: absolute;
   top: 50%;
@@ -27,15 +34,13 @@
   z-index: 1;
 }
 
-/* OVERLAY */
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0,0,0,0.55);
   z-index: 2;
 }
 
-/* CONTENT */
 .hero-content {
   position: relative;
   z-index: 3;
@@ -45,32 +50,110 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: white;
   padding: 20px;
 }
 
 .hero-content h1 {
   font-size: 48px;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .hero-content p {
   font-size: 18px;
   line-height: 1.7;
-  margin-bottom: 30px;
 }
 
-/* BUTTON */
 .hero-btn {
+  margin-top: 25px;
   padding: 14px 34px;
-  background: #c46a4a;
-  color: #fff;
+  background: var(--terracotta);
+  color: white;
   text-decoration: none;
   border-radius: 6px;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+/* ================= ABOUT ================= */
+
+.about-main {
+  padding: 100px 25px;
+  background: #ffffff;
+}
+
+.about-wrapper {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-main h2 {
+  font-size: 36px;
+  color: var(--navy);
+  margin-bottom: 10px;
+}
+
+.about-subtitle {
+  color: var(--terracotta);
+  margin-bottom: 40px;
+}
+
+.about-text p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* FACULTY */
+
+.faculty-section {
+  margin-top: 50px;
+}
+
+.faculty-section h3 {
+  font-size: 26px;
+  color: var(--navy);
+  margin-bottom: 20px;
+}
+
+.faculty-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.faculty-list li {
+  background: #f7f7f7;
+  padding: 14px;
+  border-radius: 6px;
+}
+
+/* STATS */
+
+.stats-grid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+}
+
+.stat-box {
+  background: var(--charcoal);
+  color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.stat-box h4 {
+  color: var(--terracotta);
+  font-size: 26px;
+  margin-bottom: 8px;
 }
 
 /* MOBILE */
+
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 32px;
@@ -78,5 +161,9 @@
 
   .hero-content p {
     font-size: 15px;
+  }
+
+  .about-main h2 {
+    font-size: 28px;
   }
 }
