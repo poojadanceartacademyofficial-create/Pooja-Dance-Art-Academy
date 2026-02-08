@@ -52,42 +52,6 @@ body {
   color: var(--terracotta);
 }
 
-/* =========================
-   HERO (BLACK BACKGROUND)
-========================= */
-.hero {
-  background: #000000;
-  padding: 140px 20px;
-  text-align: center;
-}
-
-.hero img {
-  max-width: 1100px;
-  width: 90%;
-  height: auto;
-  display: block;
-  margin: 0 auto 45px;
-  animation: heroFade 1.2s ease-out both;
-}
-.hero img {
-  filter: drop-shadow(0 0 35px rgba(255,255,255,0.12));
-}
-.hero-title {
-  color: #ffffff;
-  font-size: 38px;
-  font-weight: 500;
-  margin-bottom: 16px;
-  letter-spacing: 0.8px;
-}
-
-.hero-subtext {
-  color: #d6d6d6;
-  font-size: 18px;
-  line-height: 1.9;
-  margin-bottom: 42px;
-}
-
-
 
 .hero p {
   color: var(--white);
@@ -589,16 +553,17 @@ section h2 {
     font-size: 22px;
   }
 }
+
 /* =========================
-   HERO VIDEO SECTION
+   HERO VIDEO (FINAL)
 ========================= */
 
 .hero-video-section {
   position: relative;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   overflow: hidden;
-  background: #000;
+  background: black;
 }
 
 /* Video */
@@ -606,50 +571,46 @@ section h2 {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
-/* Dark overlay for readability */
+/* Overlay */
 .hero-overlay {
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.55);
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Content */
 .hero-content {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
   padding: 20px;
 }
 
 .hero-content h1 {
   font-size: 48px;
   margin-bottom: 18px;
-  font-weight: 600;
 }
 
 .hero-content p {
   font-size: 18px;
   line-height: 1.8;
   margin-bottom: 30px;
-  max-width: 700px;
 }
 
-/* Button */
 .hero-btn {
   background: #c46a4a;
   color: #fff;
@@ -657,18 +618,9 @@ section h2 {
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  transition: all 0.3s ease;
 }
 
-.hero-btn:hover {
-  background: #a8573c;
-  transform: translateY(-2px);
-}
-
-/* =========================
-   MOBILE RESPONSIVE
-========================= */
-
+/* Mobile */
 @media (max-width: 768px) {
   .hero-video-section {
     height: 70vh;
@@ -682,6 +634,7 @@ section h2 {
     font-size: 15px;
   }
 }
+
 /* ===== HERO VIDEO FIX ===== */
 
 .hero-video-section {
