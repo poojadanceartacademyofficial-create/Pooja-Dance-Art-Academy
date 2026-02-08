@@ -162,6 +162,43 @@
   .hero-content p {
     font-size: 15px;
   }
+  /* ================= NAVIGATION ================= */
+
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(6px);
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 18px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 22px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  color: var(--terracotta);
+}
+
 
   .about-main h2 {
     font-size: 28px;
