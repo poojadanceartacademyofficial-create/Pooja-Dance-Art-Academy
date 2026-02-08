@@ -4,157 +4,91 @@
   <meta charset="UTF-8">
   <title>Pooja Dance & Art Academy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-<header class="main-header">
-  <div class="nav-container">
-    <div class="logo">
-      Pooja Dance & Art Academy
-    </div>
 
-    <nav class="nav-links">
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <div class="logo">Pooja Dance & Art Academy</div>
+    <nav>
+      <a href="index.html">Home</a>
       <a href="#about">About</a>
       <a href="#programs">Programs</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#contact">Contact</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact</a>
     </nav>
-  </div>
-</header>
+  </header>
 
-  <!-- ================= HERO VIDEO ================= -->
-  <section class="hero-video-section">
+  <!-- ================= HERO ================= -->
+  <section class="hero">
 
-    <video class="hero-video" autoplay muted loop playsinline preload="auto">
-      <source src="assets/hero/hero-video.mp4" type="video/mp4">
-    </video>
+    <!-- HERO IMAGE -->
+    <img 
+      src="./assets/hero/Pooja.png" 
+      alt="Pooja Dance & Art Academy Hero Image"
+    >
 
-    <div class="hero-overlay"></div>
+    <!-- HERO TEXT -->
+    <p>
+      40+ Years of Teaching Experience<br>
+      25+ Years of Academy Excellence<br>
+      Offline & Online Classes for Kids and Ladies
+    </p>
 
-    <div class="hero-content">
-      <h1>Pooja Dance & Art Academy</h1>
-      <p>
-        Rooted in Nagpur • Teaching Artists Worldwide<br>
-        40+ Years of Teaching Experience<br>
-        Offline & Online Classes for Kids and Ladies
-      </p>
-      <a href="#" class="hero-btn">Enroll Now</a>
-    </div>
+    <!-- CTA -->
+    <a href="contact.html" class="btn">Enroll Now</a>
 
   </section>
 
   <!-- ================= ABOUT ================= -->
-  <section class="about-main" id="about">
-    <div class="about-wrapper">
+  <section id="about" class="about">
+    <h2>About Pooja Dance & Art Academy</h2>
+    <p>
+      Founded and led by Mrs. Pooja Rathi, Pooja Dance & Art Academy is a trusted
+      institution in Nagpur with over 40 years of teaching experience and 25+
+      years of academy excellence. The academy focuses on disciplined training,
+      cultural values, and professional artistic development for students of
+      all ages.
+    </p>
+  </section>
 
-      <h2>About Pooja Dance & Art Academy</h2>
-      <p class="about-subtitle">
-        Legacy of Excellence • Powered by a Professional Team
-      </p>
+  <!-- ================= PROGRAMS ================= -->
+  <section id="programs">
+    <h2>Our Courses & Programs</h2>
 
-      <div class="about-text">
-        <p>
-          <strong>Pooja Dance & Art Academy</strong>, founded and led by
-          <strong>Mrs. Pooja Rathi</strong>, is a trusted name in dance and art
-          education with a legacy of over <strong>25 years</strong>.
-          With more than <strong>40 years of teaching experience</strong>,
-          she has nurtured thousands of students with discipline,
-          grace, and artistic values.
-        </p>
-
-        <p>
-          The academy is supported by a team of
-          <strong>certified and experienced instructors</strong>
-          across dance, art, yoga, zumba, and specialized age groups.
-        </p>
-
-        <p>
-          With <strong>offline classes in Nagpur</strong> and
-          <strong>online training globally</strong>, we make quality
-          education accessible beyond boundaries.
-        </p>
-      </div>
-
-      <section class="programs-section" id="programs">
-  <h2>Our Programs</h2>
-
-  <div class="programs-grid">
-    <div class="program-card">Classical Dance</div>
-    <div class="program-card">Semi-Classical & Bollywood</div>
-    <div class="program-card">Contemporary & Modern</div>
-    <div class="program-card">Kids Dance Batches</div>
-    <div class="program-card">Ladies Special Batches</div>
-    <div class="program-card">Youngsters (16+)</div>
-    <div class="program-card">Drawing & Art</div>
-    <div class="program-card">Yoga & Zumba</div>
-    <div class="program-card">Online Classes</div>
-  </div>
-</section>
-
-     <section class="gallery-section" id="gallery">
-  <h2>Gallery</h2>
-
-  <div class="gallery-grid">
-    <div class="gallery-box">Image 1</div>
-    <div class="gallery-box">Image 2</div>
-    <div class="gallery-box">Image 3</div>
-    <div class="gallery-box">Image 4</div>
-    <div class="gallery-box">Image 5</div>
-    <div class="gallery-box">Image 6</div>
-  </div>
-</section>
- 
-      <!-- FACULTY -->
-      <div class="faculty-section">
-        <h3>Our Certified Teaching Team</h3>
-        <ul class="faculty-list">
-          <li>Classical & Semi-Classical Dance</li>
-          <li>Modern & Contemporary Dance</li>
-          <li>Kids & Ladies Special Batches</li>
-          <li>Youngsters (16+ Age Group)</li>
-          <li>Drawing & Art</li>
-          <li>Yoga & Zumba</li>
-          <li><strong>Dedicated Online Teaching Team (3 Instructors)</strong></li>
-        </ul>
-      </div>
-
-      <!-- STATS -->
-      <div class="stats-grid">
-        <div class="stat-box">
-          <h4>25,000+</h4>
-          <p>Students Trained</p>
-        </div>
-
-        <div class="stat-box">
-          <h4>25+</h4>
-          <p>Years of Legacy</p>
-        </div>
-
-        <div class="stat-box">
-          <h4>2011 – Present</h4>
-          <p>Annual Events</p>
-        </div>
-
-        <div class="stat-box">
-          <h4>5★ Rating</h4>
-          <p>JustDial Certified</p>
-        </div>
-
-        <div class="stat-box">
-          <h4>Nagpur + Global</h4>
-          <p>Offline & Online</p>
-        </div>
-      </div>
-
+    <div class="program-grid">
+      <div class="card">Classical & Semi-Classical Dance</div>
+      <div class="card">Bollywood & Contemporary Dance</div>
+      <div class="card">Art & Drawing Programs</div>
+      <div class="card">Kids & Ladies Special Batches</div>
+      <div class="card">Competition & Certification Training</div>
+      <div class="card">Sangeet & Event Choreography</div>
     </div>
   </section>
-<footer class="site-footer" id="contact">
-  <p>
-    © 2026 Pooja Dance & Art Academy • Nagpur<br>
-    Contact: 9373235550 | poojadanceartacademyofficial@gmail.com
-  </p>
-</footer>
+
+  <!-- ================= WHY US ================= -->
+  <section class="why">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>✔ 40+ years of teaching legacy</li>
+      <li>✔ Certified Kathak Visharad faculty</li>
+      <li>✔ Premium and disciplined training environment</li>
+      <li>✔ Offline & online learning options</li>
+      <li>✔ Annual stage shows & competitions since 2011</li>
+    </ul>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <p>
+      © 2026 Pooja Dance & Art Academy<br>
+      Gokulpeth, Nagpur · Maharashtra
+    </p>
+  </footer>
 
 </body>
 </html>
