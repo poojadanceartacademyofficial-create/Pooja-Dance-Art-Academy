@@ -204,3 +204,32 @@
     font-size: 28px;
   }
 }
+/* ================= PROGRAMS ================= */
+
+.programs-section {
+  padding: 100px 25px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.programs-section h2 {
+  font-size: 34px;
+  color: var(--navy);
+  margin-bottom: 50px;
+}
+
+.programs-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.program-card {
+  background: white;
+  padding: 35px 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
