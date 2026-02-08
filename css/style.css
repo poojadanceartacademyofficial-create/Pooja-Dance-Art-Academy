@@ -74,18 +74,19 @@ body {
 }
 .hero-title {
   color: #ffffff;
-  font-size: 38px;
-  font-weight: 500;
-  margin-bottom: 16px;
-  letter-spacing: 0.8px;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  letter-spacing: 0.5px;
 }
 
 .hero-subtext {
-  color: #d6d6d6;
+  color: #dddddd;
   font-size: 18px;
   line-height: 1.9;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
+
 
 
 
@@ -305,6 +306,14 @@ section h2 {
 .hero-subtext {
   font-size: 16px;
 }
+.hero-title {
+  font-size: 26px;
+}
+
+.hero-subtext {
+  font-size: 16px;
+}
+
 /* =========================
    ABOUT SECTION
 ========================= */
